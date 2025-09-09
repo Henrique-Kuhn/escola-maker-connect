@@ -22,6 +22,13 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
+        },
+        tech: {
+          lego: "hsl(var(--tech-lego))",
+          microbit: "hsl(var(--tech-microbit))",
+          arduino: "hsl(var(--tech-arduino))",
+          esp32: "hsl(var(--tech-esp32))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
